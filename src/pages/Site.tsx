@@ -23,20 +23,24 @@ function Site() {
     }
   };
 
+  const clickButton = <IonButton size="small" onClick={consultaAPI}>
+    Clique Aqui
+  </IonButton>
+
   return (
     <>
       <IonContent className="ion-padding">
         <h1 className="title text-bold">Bem vindo ao Meu site</h1>
-        <IonText>
-          <p className="text-green">Esse é um parágrafo de exemplo</p>
+        <IonText className="text-green">
+          <p>Esse é um parágrafo de exemplo</p>
         </IonText>
         <IonButton size="small" onClick={consultaAPI}>
           Clique Aqui
         </IonButton>
         <div className="important-section">
           <h1>Seção Importante</h1>
-          <IonText>
-            <p className="text-green text-bold">
+          <IonText className="text-green text-bold">
+            <p>
               Esta é uma seção com conteúdo relevante
             </p>
           </IonText>
