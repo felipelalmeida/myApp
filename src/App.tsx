@@ -1,16 +1,7 @@
 import {
   IonApp,
-  IonButton,
-  IonContent,
-  IonImg,
-  IonItem,
-  IonItemDivider,
-  IonLabel,
-  IonText,
   setupIonicReact,
 } from "@ionic/react";
-import { IonReactRouter } from "@ionic/react-router";
-import { ellipse, square, triangle } from "ionicons/icons";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -31,8 +22,6 @@ import "@ionic/react/css/display.css";
 /* Theme variables */
 import "./theme/variables.css";
 import Site from "./pages/Site";
-import { useEffect } from "react";
-import api from "./services/api";
 
 setupIonicReact();
 

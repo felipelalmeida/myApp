@@ -1,0 +1,20 @@
+.ion-padding {
+    background-color: #F2F2F2;
+}
+.title {
+    color: blue;
+}
+
+.text-green {
+    color: #008047;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.important-section {
+    border-top: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    margin: 10px 0 ;
+}
